@@ -1,5 +1,17 @@
+body::before {
+    display: block;
+    content: "";
+    height: 60px;
+} /* Esto hace que se haga un espacio fantasma entre el header y la primera section */
+
 @media(min-width: 768px) {
     .news-input {
         width: 50%;
     }
+}
+
+#map {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
 }
